@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  dtmoney-frontend:
+    container_name: dtmoney-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    tty: true
