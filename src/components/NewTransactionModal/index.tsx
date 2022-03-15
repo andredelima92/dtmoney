@@ -9,14 +9,6 @@ type NewTransactionModalProps = {
   onRequestClose: () => void;
 };
 
-type ModalProps = {
-  isOpen: boolean;
-};
-
-type Modal2Props = {
-  isOpen: boolean;
-};
-
 export const NewTransactionModal: React.FC<NewTransactionModalProps> = ({
   isOpen,
   onRequestClose,
