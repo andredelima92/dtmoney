@@ -9,6 +9,10 @@ type NewTransactionModalProps = {
   onRequestClose: () => void;
 };
 
+type NewFixModalTest = {
+  openModal: () => void;
+};
+
 export const NewTransactionModal: React.FC<NewTransactionModalProps> = ({
   isOpen,
   onRequestClose,
